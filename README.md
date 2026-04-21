@@ -1,12 +1,10 @@
 # ✈️ AirFly Insights: Airline Performance Analysis
-This project analyzes airline flight data from 2019 to 2023 to uncover trends in delays, cancellations, and route performance. The analysis combines Python-based data processing with Power BI visualizations to generate actionable insights.
-
+This project analyzes airline flight data from 2019 to 2023 to uncover trends in delays, cancellations, and route performance. Using Python for data cleaning and exploratory analysis, and Power BI for visualization, the project provides insights into operational efficiency, delay causes, and seasonal patterns to support data-driven decision-making.
 *This project was completed as part of the Infosys Springboard Data Analytics Program.*
 
 ## 📊 Problem Statement
 The airline industry generates large volumes of operational data, including flight schedules, delays, cancellations, and route information. Analyzing this data is essential to identify inefficiencies, understand delay patterns, and improve operational performance.
-
-This project aims to uncover key trends and provide data-driven insights to enhance airline efficiency and decision-making.
+The goal is to help understand airline and airport-level performance and contribute to actionable insights using visual analysis.
 
 ## 📁 Data Description
 - Airline dataset covering **2019–2023**
@@ -25,43 +23,42 @@ This project aims to uncover key trends and provide data-driven insights to enha
 - Built a Power BI dashboard for visualization and insights
 
 ## 📊 Dashboard
-
+![AirFly Insights Dashboard](images/Dashboard.png)
 📌 The Power BI dashboard provides insights into:
 - Flight delays and trends  
 - Cancellation patterns  
 - Airline performance  
 - Route-level analysis 
 
-
 ## 📈 Key Analysis
-- Identified busiest months, days, and routes  
-- Analyzed airline-wise delay performance  
-- Compared departure vs arrival delays  
-- Explored delay causes (carrier, weather, NAS, etc.)  
-- Studied cancellation trends and seasonal impact  
-
----
+- Approximately 97.4% of flights are successfully completed, while only 2.6% are cancelled, indicating strong overall operational
+  reliability.
+- Flight activity peaks during July and August, reflecting high seasonal demand, while September records the lowest number of flights.
+- The average departure delay is higher than arrival delay across airlines, suggesting that flights tend to recover some lost time during    transit.
+- Flight delays are primarily driven by carrier-related issues, followed by late aircraft delays and NAS (air traffic congestion),           indicating both operational inefficiencies and traffic-related constraints.
+- Flight cancellations peak during March and April, while November records the lowest cancellation rates. Cancellation rates show minimal    impact during holiday months (November and December).
+- Cancellation analysis indicates that most flights are cancelled due to weather and security issues.
+  A: Carrier-related
+  B: Weather
+  C: NAS (Air Traffic System)
+  D: Security
+  NC: Not Cancelled
 
 ## 💡 Recommendations
-
-- Improve carrier-level operational efficiency  
-- Optimize departure scheduling and turnaround time  
-- Strengthen planning during peak travel periods  
-- Enhance weather risk management strategies  
-- Focus on improving high-delay routes  
-
----
+- Airlines should optimize internal operations such as crew scheduling, aircraft maintenance, and ground handling to reduce carrier-         related delays.
+- Since departure delays are higher, airlines should improve turnaround time and boarding processes to minimize initial delays.
+- Airlines should enhance resource allocation during peak months (July, August, March) and busy weekdays to manage high demand efficiently.
+- Airlines should strengthen weather risk management using predictive analytics and contingency planning to reduce cancellations.
+- Airlines should focus on high-delay routes (e.g., FOD–DEN, DEN–ABE) and underperforming airlines to implement targeted improvements.
 
 ## 🛠️ Tools & Skills Used
 
 **Tools:**
-- Python  
-- Power BI  
-- Jupyter Notebook  
+- Python Jupyter Notebook
+- Power BI
 
 **Libraries:**
-- Pandas, NumPy  
-- Matplotlib, Seaborn  
+- Pandas, NumPy, Matplotlib, Seaborn  
 
 **Skills:**
 - Data Cleaning  
