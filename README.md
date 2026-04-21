@@ -1,12 +1,12 @@
 # ✈️ AirFly Insights: Airline Performance Analysis
 This project analyzes airline flight data from 2019 to 2023 to uncover trends in delays, cancellations, and route performance. Using Python for data cleaning and exploratory analysis, and Power BI for visualization, the project provides insights into operational efficiency, delay causes, and seasonal patterns to support data-driven decision-making.
 *This project was completed as part of the Infosys Springboard Data Analytics Program.*
----
+
 
 ## 📊 Problem Statement
 The airline industry generates large volumes of operational data, including flight schedules, delays, cancellations, and route information. Analyzing this data is essential to identify inefficiencies, understand delay patterns, and improve operational performance.
 The goal is to help understand airline and airport-level performance and contribute to actionable insights using visual analysis.
----
+
 
 ## 📁 Data Description
 - Airline dataset covering **2019–2023**
@@ -15,7 +15,7 @@ The goal is to help understand airline and airport-level performance and contrib
 - Refer the AIRFLY_FEATURE_DICT.docx file to understand what each column means
 
 📌 **Raw Dataset Source (Kaggle):**  https://www.kaggle.com/datasets/patrickzel/flight-delay-and-cancellation-dataset-2019-2023
----
+
 
 ## ⚙️ Methodology
 - Performed data understanding and explored dataset structure (~3M records)  
