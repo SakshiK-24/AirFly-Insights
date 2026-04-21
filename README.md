@@ -1,10 +1,12 @@
 # ✈️ AirFly Insights: Airline Performance Analysis
 This project analyzes airline flight data from 2019 to 2023 to uncover trends in delays, cancellations, and route performance. Using Python for data cleaning and exploratory analysis, and Power BI for visualization, the project provides insights into operational efficiency, delay causes, and seasonal patterns to support data-driven decision-making.
 *This project was completed as part of the Infosys Springboard Data Analytics Program.*
+---
 
 ## 📊 Problem Statement
 The airline industry generates large volumes of operational data, including flight schedules, delays, cancellations, and route information. Analyzing this data is essential to identify inefficiencies, understand delay patterns, and improve operational performance.
 The goal is to help understand airline and airport-level performance and contribute to actionable insights using visual analysis.
+---
 
 ## 📁 Data Description
 - Airline dataset covering **2019–2023**
@@ -13,6 +15,7 @@ The goal is to help understand airline and airport-level performance and contrib
 - Refer the AIRFLY_FEATURE_DICT.docx file to understand what each column means
 
 📌 **Raw Dataset Source (Kaggle):**  https://www.kaggle.com/datasets/patrickzel/flight-delay-and-cancellation-dataset-2019-2023
+---
 
 ## ⚙️ Methodology
 - Performed data understanding and explored dataset structure (~3M records)  
@@ -21,6 +24,7 @@ The goal is to help understand airline and airport-level performance and contrib
 - Created new features such as Month, Day, and Route  
 - Conducted exploratory data analysis and delay analysis  
 - Built a Power BI dashboard for visualization and insights
+---
 
 ## 📊 Dashboard
 ![AirFly Insights Dashboard](images/Dashboard.png)
@@ -29,6 +33,7 @@ The goal is to help understand airline and airport-level performance and contrib
 - Cancellation patterns  
 - Airline performance  
 - Route-level analysis 
+---
 
 ## 📈 Key Analysis
 - Approximately 97.4% of flights are successfully completed, while only 2.6% are cancelled, indicating strong overall operational
@@ -43,6 +48,7 @@ The goal is to help understand airline and airport-level performance and contrib
   C: NAS (Air Traffic System)
   D: Security
   NC: Not Cancelled
+---
 
 ## 💡 Recommendations
 - Airlines should optimize internal operations such as crew scheduling, aircraft maintenance, and ground handling to reduce carrier-         related delays.
@@ -50,6 +56,7 @@ The goal is to help understand airline and airport-level performance and contrib
 - Airlines should enhance resource allocation during peak months (July, August, March) and busy weekdays to manage high demand efficiently.
 - Airlines should strengthen weather risk management using predictive analytics and contingency planning to reduce cancellations.
 - Airlines should focus on high-delay routes (e.g., FOD–DEN, DEN–ABE) and underperforming airlines to implement targeted improvements.
+---
 
 ## 🛠️ Tools & Skills Used
 
@@ -66,12 +73,14 @@ The goal is to help understand airline and airport-level performance and contrib
 - Data Visualization  
 - Feature Engineering  
 - Business Insight Generation  
+---
 
 ## 📂 Project Files 
 - **AIRFLY_FEATURE_DICT.docx** - Sample dataset and data dictionary
 - **FinalAirFlyInsights.ipynb** - Jupyter Notebook with complete analysis 
 - **Airline_Performance_Analysis_PPT.pdf** - Final presentation  
 - **images/**- Dashboard photo which is used in README.md
+---
 
 ## ⚠️ Note on Missing Values
 - The dataset contains null values in columns such as **DepDelay, DepTime, TaxiIn, TaxiOut, WheelsOn, and WheelsOff**.  
