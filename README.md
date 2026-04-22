@@ -33,7 +33,8 @@ The goal is to help understand airline and airport-level performance and contrib
 - Cancellation patterns  
 - Airline performance  
 - Route-level analysis
-- Due to file size limitations, the Power BI (.pbix) file is not included. Dashboard visuals are provided as screenshots.
+
+Due to file size limitations, the Power BI (.pbix) file is not included. Dashboard visuals are provided as screenshots.
 ---
 
 ## 📈 Key Analysis
@@ -63,7 +64,9 @@ The goal is to help understand airline and airport-level performance and contrib
 **Tools:**
 - Python Jupyter Notebook
 - Power BI
+
 **Libraries:** Pandas, NumPy, Matplotlib, Seaborn  
+
 **Skills:**
 - Data Cleaning  
 - Exploratory Data Analysis (EDA)  
